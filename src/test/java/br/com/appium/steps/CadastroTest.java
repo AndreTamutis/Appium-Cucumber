@@ -61,8 +61,8 @@ public class CadastroTest {
 
 	@Quando("informar os dados do cliente")
 	public void informarOsDadosDoCliente() throws InterruptedException {
-		clientePage.cadastro("André Luiz", "463152785", "36816530896", "04121989", "Rua Marfim", "463152785",
-				"Cidade das Flores", "06184290", "Osasco", "11989951307", "1136081464", "tamutisf@gmail.com");
+		clientePage.cadastro("André Luiz", "463155786", "36816530090", "04121980", "Rua Marfim", "453132756",
+				"Jardim das Flores", "06184250", "Osasco", "11949951303", "1136081464", "teste@gmail.com.com");
 	}
 
 	@Então("salvo")
